@@ -32,7 +32,11 @@ header {
 }
 
 main {
-    padding: $default-padding;
+    padding: calc($default-padding/2);
+    margin: 0.5rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
 }
 
 /* Custom class styling */
@@ -41,5 +45,21 @@ main {
     display: inline;
     margin-right: $default-padding;
 }
-
-
+.title {
+    color: #f9a825;
+}
+.description {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: justify;
+}
+.sub-description {
+    color: rgb(158 158 158);
+    letter-spacing: 0.5px;
+}
+.banner-img {
+    width: 100%;
+    img {
+        max-width: 100%;
+    }
+}
