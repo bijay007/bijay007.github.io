@@ -1,5 +1,9 @@
 {
   "plugins": {
-    "posthtml-include": {}
+    "posthtml-include": {
+      "root": "./src",
+      "encoding": "utf-8",
+      "strict": true
+    }
   }
 }
