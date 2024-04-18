@@ -1,0 +1,17 @@
+{
+  "name": "nepathya",
+  "version": "1.0.0",
+  "description": "Uno de los más famosos banda de rock Nepalese.",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "musica",
+    "rock",
+    "nepal",
+    "nepathya",
+    "discografía"
+  ],
+  "author": "Bijay Timilsina",
+  "license": "ISC"
+}
