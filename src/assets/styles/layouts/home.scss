@@ -19,16 +19,9 @@ ul {
 
 body {
     padding: 2rem;
-    height: 100vh;
     color: #1f1d1f;
     font-family: Arial, sans-serif;
     text-align: center;
-}
-
-header {
-    background-color: #464545;
-    color: $white;
-    padding: $default-padding;
 }
 
 main {
@@ -40,11 +33,6 @@ main {
 }
 
 /* Custom class styling */
-
-.top-nav li {
-    display: inline;
-    margin-right: $default-padding;
-}
 .title {
     color: #f9a825;
 }
@@ -56,6 +44,7 @@ main {
 .sub-description {
     color: rgb(158 158 158);
     letter-spacing: 0.5px;
+    font-style: italic;
 }
 .banner-img {
     width: 100%;
