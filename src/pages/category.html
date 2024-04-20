@@ -4,9 +4,19 @@
         <title>Nepathya</title>
         <link rel="stylesheet" href="../assets/styles/layouts/category.scss"
           type="text/css" />
+        <script>
+            function redirectToHome() {
+                window.location.href = '/';
+            }
+        </script>
     </head>
     <main class="category">
-        <h2 class="category-title">Events and Discography</h2>
+        <nav class="category-nav">
+            <button onclick="redirectToHome()">&#127968;</button>
+            <h2>Events and Discography</h2>
+            <div></div>
+            <!-- empty div added so that home button is on the left and title is on the center when applying justify-content: center -->
+        </nav>
         <section class="section-category">
             <article class="section-article">
                 <img src="../assets/images/history.jpg" alt="History">
@@ -34,17 +44,16 @@
                         </li>
                         <li>Himal chuchure – 1993 (featuring Chekyo chekyo,
                             Eouta chitthi)</li>
-                        <li>Min pachas ma – 1995 (featuring Jomsome bazar ma,
-                            Chari Mario shisai ko goli le)</li>
+                        <li>Min pachas ma – 1995 (featuring Jomsome bazarma,
+                            Chari Maro shisai ko golile)</li>
                         <li>Shringar – 1997 (featuring Saruma rani, Yarling,
                             Yatra)</li>
                         <li>Resham – 2001 (featuring Resham, Yo Zindagani)</li>
-                        <li>Bhedako oon Jasto – 2003 (featuring – Bheda ko Oon…,
-                            Sa…, Taalko Pani)</li>
+                        <li>Bhedako oon Jasto – 2003 (featuring – Sa…, Taalko
+                            Pani)</li>
                         <li>Ghatana (Incidents of Nepal) – 2005 (featuring –
                             Ghatana)</li>
                         <li>Mero Desh – my country – 2010</li>
-                        <li>Aina Jhyal – 2010</li>
                     </ul>
                     </p>
                 </div>
