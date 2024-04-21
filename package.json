@@ -2,6 +2,7 @@
   "name": "nepathya",
   "version": "1.0.0",
   "description": "Uno de los más famosos banda de rock Nepalese.",
+  "source": "src/index.html",
   "scripts": {
     "test": "npm run test",
     "start": "npm-run-all clean parcel:dev",
@@ -10,7 +11,6 @@
     "parcel:build": "parcel build",
     "clean": "rimraf dist .parcel-cache"
   },
-  "source": "src/index.html",
   "keywords": [
     "musica",
     "rock",
