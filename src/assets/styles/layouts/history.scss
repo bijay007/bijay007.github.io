@@ -68,6 +68,10 @@
         background-color: #f0f0f0;
     }
 }
+.aside-container {
+    display: flex;
+    align-items: center;
+}
 .band-details {
     display: flex;
     flex-direction: column;
@@ -88,5 +92,8 @@
     }
     aside img {
         max-width: 20rem;
+    }
+    .aside-container {
+        flex-direction: column;
     }
 }
