@@ -10,6 +10,7 @@
     "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
     "clean": "rimraf dist .parcel-cache"
   },
+  "source": "src/index.html",
   "targets": {
     "web": {
       "context": "browser",
