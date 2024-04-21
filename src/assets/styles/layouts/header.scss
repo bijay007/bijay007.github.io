@@ -10,12 +10,13 @@ nav {
 }
 
 header h1 {
-    font-size: 2.2em;
+    font-size: 2.3em;
 }
 
 .top-nav li {
     display: inline;
     margin-right: calc($default-padding * 2);
+    font-size: 1.2em;
     a {
         padding: 0.5rem 0.75rem;
         border-radius: 0.25rem;
