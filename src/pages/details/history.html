@@ -4,18 +4,13 @@
         <title>Nepathya - History</title>
         <link rel="stylesheet" href="../../assets/styles/layouts/history.scss"
           type="text/css" />
-        <script type="text/javascript">
-            function goToPage(pageName) {
-                window.location.href = pageName;
-            }
-        </script>
     </head>
     <main class="history">
         <article class="band band-info">
             <nav class="history-nav">
-                <button onclick="goToPage('/pages/category')">&#8678;</button>
+                <button class="btn-category">&#8678;</button>
                 <h2>Band Background & History</h2>
-                <button onclick="goToPage('discography')">&#128191;</button>
+                <button class="btn-details">&#128191;</button>
             </nav>
             <h2>Background Info</h2>
             <p>
@@ -111,4 +106,5 @@
             </p>
         </article>
     </main>
+    <script src="../../app.js" type="text/javascript"></script>
 </html>
