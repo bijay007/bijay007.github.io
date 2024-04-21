@@ -11,12 +11,6 @@
     "clean": "rimraf dist .parcel-cache"
   },
   "source": "src/index.html",
-  "targets": {
-    "web": {
-      "context": "browser",
-      "publicUrl": "./"
-    }
-  },
   "keywords": [
     "musica",
     "rock",
