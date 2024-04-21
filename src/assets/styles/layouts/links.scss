@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    padding: 2rem;
+    background-color: #d5f4ff;
+}
+section {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    max-width: 75%;
+    p {
+        padding-left: 0.5rem;
+    }
+    h2 {
+        text-shadow: 1px 1px 2px #75dc725c;
+    }
+    li {
+        margin-bottom: 0.5rem;
+        font-size: 1.1em;
+    }
+    a {
+        text-decoration: none;
+    }
+}
