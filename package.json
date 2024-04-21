@@ -7,7 +7,7 @@
     "start": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
     "parcel:dev": "parcel",
-    "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
+    "parcel:build": "parcel build --target web --no-source-maps --no-cache",
     "clean": "rimraf dist .parcel-cache"
   },
   "source": "src/index.html",
