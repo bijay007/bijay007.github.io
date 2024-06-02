@@ -1,0 +1,16 @@
+<svg width="120" height="90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <!-- clip-path que corta 5 por arriba y 5 por abajo -->
+  <clipPath id="dentClip">
+    <rect x="40" y="15" width="40" height="30" />
+  </clipPath>
+  
+  <!-- icono de CD -->
+  <circle cx="60" cy="30" r="20" stroke="black" stroke-width="1" fill="lightblue" clip-path="url(#dentClip)" />
+  <circle cx="60" cy="30" r="9" stroke="black" stroke-width="2" fill="white" />
+  <circle cx="60" cy="30" r="4" fill="black" />
+
+  <!-- texto debajo del icono -->
+  <text x="50%" y="70" font-family="cursive" font-size="18" text-anchor="middle" fill="lightblue">Nepathya</text>
+
+</svg>

@@ -51,4 +51,9 @@ main {
     img {
         max-width: 100%;
     }
+    // para cada border (total 4 bordes) existe 2 conjuntos de valores - la derecha y la izquierda
+    clip-path: polygon(5% 0%, 95% 0%, 100% 10%, 100% 90%, 95% 100%, 5% 100%, 0% 90%, 0% 10%);
+}
+.photo__lead-singer {
+    clip-path: circle(90px);
 }

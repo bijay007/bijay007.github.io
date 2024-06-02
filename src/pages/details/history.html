@@ -23,13 +23,22 @@
                 become a sustainable profession in Nepal, long-term commitments
                 from musicians remain rare.
             </p>
-            <aside aria-label="images of band">
-                <img src="../../assets/images/old_1990.jpg" alt="old 1990 band">
-                <img src="../../assets/images/recent_2006.jpg"
-                  alt="recent 2006 band">
-                <img src="../../assets/images/latest_2016.jpg"
-                  alt="latest 2016 concert">
-            </aside>
+            <div class="banner-img">
+                <picture>
+                    <!-- para dispositivos <500px, usa la version zoomed -->
+                    <source media="(max-width: 499px)"
+                      srcset="../../assets/images/history-banner-zoomed.jpg">
+                    <!-- para dispositivos entre 500px i 900px, usa la version cropped -->
+                    <source media="(min-width: 500px) and (max-width: 899px)"
+                      srcset="../../assets/images/history-banner-cropped.jpg">
+                    <!-- usa la version normal para el resto de los tamaños -->
+                    <source media="(min-width: 900px)"
+                      srcset="../../assets/images/history-banner.jpg">
+                    <!-- imagen por defecto en caso de navegadores que no soportan el elemento <picture> -->
+                    <img src="../../assets/images/history-banner.jpg"
+                      alt="group banner">
+                </picture>
+            </div>
             <p>
                 Amrit Gurung has remained the guardian, leader, and currently
                 the lead vocalist of Nepathya. With over 10 albums to its
@@ -46,6 +55,14 @@
                 expression of Nepal as Nepali people lived through the 2003-2005
                 conflict struck Nepal.
             </p>
+            <aside class="band__images" aria-label="images of band">
+                <img src="../../assets/images/old_1990.jpg" alt="old 1990 band">
+                <img class="animated"
+                  src="../../assets/images/band-last-concert-japan.webp"
+                  alt="last concert">
+                <img src="../../assets/images/recent_2006.jpg"
+                  alt="recent 2006 band">
+            </aside>
             <p>
                 8th album Mero Desh (मेरो देश, released 2010) is a compilation
                 of songs based on Nepathya's musical expression of current
