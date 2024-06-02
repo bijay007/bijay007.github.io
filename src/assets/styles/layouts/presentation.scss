@@ -14,6 +14,25 @@ header {
     padding: 1rem;
     font-size: 1.1em;
 }
+.svg-container {
+    display: flex;
+    place-items: center;
+    .animated-rect {
+        stroke-dasharray: 200; /* longitud del stroke del rectangulo */
+        stroke-dashoffset: 0;
+        animation: move-edges 5s infinite alternate;
+    }
+    @keyframes move-edges {
+        0%, 100% {
+            stroke-dasharray: 200;
+            stroke-dashoffset: 0;
+        }
+        50% {
+            stroke-dasharray: 100, 100;
+            stroke-dashoffset: 100;
+        }
+    }
+}
 .banner {
     position: relative;
     height: 50rem;

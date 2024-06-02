@@ -28,6 +28,7 @@
     "postcss": "^8.4.38",
     "posthtml-include": "^2.0.1",
     "rimraf": "^5.0.5",
-    "sass": "^1.75.0"
+    "sass": "^1.75.0",
+    "sharp": "^0.31.3"
   }
 }

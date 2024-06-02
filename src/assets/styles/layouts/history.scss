@@ -100,10 +100,15 @@
         background-color: #f0f0f0;
     }
 }
+
 .aside-container {
     display: flex;
     align-items: center;
 }
+.aside-container > aside:first-of-type {
+    margin-right: 0.5rem;
+}
+
 .band-details {
     display: flex;
     flex-direction: column;
